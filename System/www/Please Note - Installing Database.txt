@@ -1,0 +1,9 @@
+Database Name -
+
+shareddb (All Lower Case)
+
+
+User
+
+Username - admin
+Password - admin

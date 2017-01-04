@@ -1,0 +1,224 @@
+body {
+	background-color: #FFFFFF;
+	font-size: 10pt;
+	margin: 4;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(file:///F|/ITECH%203224PHP/images/background%20image%201.png);
+}
+a {
+	color: #00FFFF;
+	-moz-background-inline-policy: bounding-box;
+}
+a:hover {
+ color: #CDD9EF;}
+a:visited  {
+ color: #CDD9EF;}
+#bodyDiv {
+	text-align: left;
+	margin: 0 auto;
+	width: 900px;
+	background-color: #FFFFFF;
+;
+}
+#header {
+	background-image: url(file:///F|/ITECH%203224PHP/images/logo.jpg);
+}
+#contentbutton { 
+	padding: 5px;
+	width: auto;
+	margin-top: 15px;
+	margin-right:0px;
+	margin-bottom: 20px;
+	margin-left: 800px;
+	height: auto;
+
+}
+#headMain {
+	height:80px;
+	width: 100%;
+	border-left: 1px #CCCCCC solid;
+	border-right: 1px #CCCCCC solid;
+	border-top: 1px #CCCCCC solid;
+	border-bottom: 1px #CCCCCC solid;}
+#headMain h1 {
+	background-image: url(file:///F|/ITECH%203224PHP/images/winterflakes.gif);
+	background-repeat: no-repeat;
+	height: 60px;
+	width: 220px;
+	color: #403E7C;
+	text-transform: uppercase;
+	margin:0005px;
+	margin-left: 300px;
+}
+    #headMenu {
+	width: 50%;	
+	margin:0 auto;
+	font-size: 1.2em;
+	font-family:	Verdana, Arial, Helvetica, sans-serif;
+}
+	
+    #headMenu ul {
+		text-transform:uppercase;
+		color:#FFFFFF;		
+		}
+	#headMenu li {
+		display:inline; }
+	#headMenu li a {
+	color: #000066;
+	font-weight: bold;
+	text-decoration:none;
+	
+	padding: 5px;
+	background-color: #CCCCFF;}
+	#headMenu li a:hover {
+	color: #FF9933!important;
+	background-color: #FFFFFF;}
+#headNav {
+	height:15px;
+	width: 100%;
+	color: #FFFFFF;}
+#contentDiv {
+	margin-top:30px;}
+h2 {
+	font-family:  Verdana, Arial, Helvetica, sans-serif;
+	color: #44753C;
+	font-size:1.5em;
+	border-bottom: 1px solid #666666;}
+#contentLeft, #contentMiddle, #contentRight {
+	padding: 5px;
+	width: auto;
+}
+#contentLeft {
+	width: auto;
+	float: left;
+}
+#contentLeft p, #contentRight p {}
+#contentMiddle {
+	width: 74.5%;
+	float: left;
+	border-left: 1px #CCCCCC solid;
+	border-right: 1px #CCCCCC solid;
+	border-top: 1px #CCCCCC solid;
+	border-bottom: 1px #CCCCCC solid;
+	text-align: justify;
+}
+#contentRight {
+	background-image: url(file:///F|/ITECH%203224PHP/images/hit372.jpg);
+	height: auto;
+	width: 150px;
+	left: 649px;
+	position: absolute;
+	top: 137px;
+	
+}
+#footer {
+	clear: both;
+	background-color: #9999FF;
+	background-image: url(file:///F|/ITECH%203224PHP/images/footer.gif);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 16pt;
+	text-align: center;
+	color: #000000!important;
+}
+.dontDisplay {
+	display: none;}
+.inputfield {
+	border: 1px solid #CDD9EF;
+	color: #0443AD;
+	font-size: 0.8em;}
+.inputbutton {
+	border: 1px solid #999999;
+	background-color: #CDD9EF;
+	font-size: 0.8em;
+	color: #FFFFFF;}
+#contentLeft a {
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: normal;
+	background-color: #73A80F;
+	padding-right: 126px;
+	padding-top: 5px;
+	padding-bottom: 2px;
+	padding-left: 5px;}
+#contentLeft a:hover {
+	color: #999966;
+	background-color: #CCCCCC;}
+.textright {
+	position: absolute;
+	left: -85px;
+	top: 209px;
+	width: 169px;
+	height: 240px;
+	text-align: left;
+	font-weight: bold;
+}
+.imaright {
+	background-image: url(file:///F|/ITECH%203224PHP/images/Logo.gif);
+	position: absolute;
+	height: 113px;
+	width: 169px;
+	left: -87px;
+	top: 454px;
+
+
+
+}
+.buttonLink {
+text-decoration: underline;
+border: none;
+color: blue;
+cursor: pointer;
+color: #396
+-moz-background-inline-policy: bounding-box;
+}
+ /* example styles for validation form demo */
+#register-form {
+    background: url("form-fieldset.gif") repeat-x scroll left bottom #F8FDEF;
+    border: 1px solid #DFDCDC;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 25px 50px 10px;
+    width: 350px;
+}
+
+#register-form .fieldgroup {
+    background: url("form-divider.gif") repeat-x scroll left top transparent;
+    display: inline-block;
+    padding: 8px 10px;
+    width: 340px;
+}
+
+#register-form .fieldgroup label {
+    float: left;
+    padding: 15px 0 0;
+    text-align: right;
+    width: 110px;
+}
+
+#register-form .fieldgroup input, #register-form .fieldgroup textarea, #register-form .fieldgroup select {
+    float: right;
+    margin: 10px 0;
+    height: 25px;
+}
+
+#register-form .submit {
+    padding: 10px;
+    width: 220px;
+    height: 40px !important;
+}
+
+#register-form .fieldgroup label.error {
+    color: #FB3A3A;
+    display: inline-block;
+    margin: 4px 0 5px 125px;
+    padding: 0;
+    text-align: left;
+    width: 220px;
+}
